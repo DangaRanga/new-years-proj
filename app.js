@@ -1,5 +1,5 @@
 
-let countDownDate = new Date('Jan 1, 2021 00:00:00').getTime();
+let countDownDate = new Date('Jan 1, 2020 00:00:00').getTime();
 
 
 function addZero(number){
@@ -34,6 +34,7 @@ function timer() {
         }else{
             document.querySelector('.fireworks').style.display = "block";
             let boxes = document.getElementsByClassName('box');
+            confetti.start(2, 3);
             hideElements(boxes);
             document.querySelector('#message').classList.remove('hidden');
         }
@@ -46,5 +47,4 @@ function getSVGLength(){
         console.log(`Letter ${i} is ${svg[i].getTotalLength()}`);
     }
 }
-getSVGLength();
 timer();
