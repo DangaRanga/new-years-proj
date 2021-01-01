@@ -1,5 +1,5 @@
 
-let countDownDate = new Date('Jan 1, 2020 00:00:00').getTime();
+let countDownDate = new Date('Jan 1, 2021 00:00:00').getTime();
 
 
 function addZero(number){
