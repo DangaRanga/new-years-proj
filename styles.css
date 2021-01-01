@@ -28,20 +28,19 @@ main{
 
 .box{
     margin-right: 3vw;
-
 }
 
 .label{
     text-align: center;
     text-transform: uppercase;
-    font-size:25px;
+    font-size:2.5vw;
     font-weight:bold;
     padding-bottom:10px;
 }
 .number{
-    font-size:70px;
+    font-size:3.5vw;
     background: linear-gradient(#8585850b,#0a4f6838);
-    padding: 50px;
+    padding: 4vw;
     border-radius:30%;
     letter-spacing: 2px;
 
